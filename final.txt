@@ -1,0 +1,39 @@
+Final ANLT 202
+Instructions: for each question include only the following sections:
+	a) R syntax but not output.
+	b) A sentence that includes the relevant p-value and conclusion.
+	
+1) Using Final_Data_Ethics.csv
+	*I removed responses with Not Applicable or missing data.
+	
+	i) Are engineers different than non-engineers in their willingness to give up access to cell phones to save a life (LIFE_PHONE)?
+
+	ii) Are engineers different than non-engineers in their willingness to harm a few to save many (GREATER_GOOD)?
+	
+2) Using Final_Data_Class1.csv
+
+	iii) Are people with a Bachelors in Mathematics or higher (BA_MATH) significantly less worried about this class than those without a Bachelors or higher in Mathematics?
+	
+	iv) Are people for whom English is not their first language (ENG_FIRST_LANGUAGE) significantly more worried about this class than those for whom English was their first language?
+	
+3) Using Final_AlienFrisbeeBallxx.csv where x is your initials
+	v) Create the best significant model that predicts the yark made percentage (you must create this variable, yarksMade/yarksAttempted). You may not use yarksMade or yarksAttempted in your model. Include the describe the final model and the model that came before it and include R^squared and significance of all variables used in final model.
+
+	Example:
+	
+	model										r-square
+	m1: y = B + m1x1 + m2x2 + m3x3				.24
+	m2: y = B + m1x1 + m2x2 + m3x3 + m4x4		.43
+	aov(m1,m2) p-value .003
+	
+	variable 	p-value
+	x1			.03
+	x2			.0001
+	x3			.02
+	x4			.04
+	
+4) Using data Final_University_xx.csv where xx is your initials 
+	vi) Create the best model possible to predict ADMITTED. Include the describe the final model and the model that came before it and include R^squared and significance of all variables used in final model. Use the example above for answer format. Report McFadden's R squared. 
+	
+	vii) Create a correlation matrix and report significant correlations on the data set.
+	
